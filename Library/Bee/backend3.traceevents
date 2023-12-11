@@ -1,0 +1,557 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1702264022040148, "dur":33374, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702264022073526, "dur":142, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702264022073721, "dur":322, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702264022074074, "dur":3313, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702264022077388, "dur":805147, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702264022882536, "dur":191, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702264022882727, "dur":86, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702264022882923, "dur":1659, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1702264022074217, "dur":3182, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702264022077402, "dur":10634, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702264022088140, "dur":1137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/admin/Downloads/game/unity/merlindemonwar/Merlin-s Demon War/Merlin's Demon War/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1702264022089278, "dur":1967, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702264022096668, "dur":862, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022096628, "dur":904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022098334, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022100987, "dur":137151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022100943, "dur":137197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022238161, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022239940, "dur":215969, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022239901, "dur":216010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022455939, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022457593, "dur":31595, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022457557, "dur":31633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022489267, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022490218, "dur":145632, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022490185, "dur":145667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022635884, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022637139, "dur":30508, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022637103, "dur":30546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022667694, "dur":2445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022670175, "dur":118869, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022670142, "dur":118904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022789076, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022790408, "dur":90995, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022790371, "dur":91035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702264022881427, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022074347, "dur":3084, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022077434, "dur":882, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022078317, "dur":509, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022078827, "dur":532, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022079360, "dur":8684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022088171, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1702264022088228, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022088372, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022088496, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022088600, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022088693, "dur":7940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022096686, "dur":22690, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022096634, "dur":22744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022119407, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022120682, "dur":28009, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022120648, "dur":28045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022148736, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022149999, "dur":55708, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022149931, "dur":55778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022205735, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022207004, "dur":208352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022206971, "dur":208388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022415388, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022416701, "dur":137860, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022416605, "dur":137958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022554572, "dur":138, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022554714, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022556053, "dur":25031, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022555978, "dur":25108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022581113, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022582218, "dur":25900, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022582185, "dur":25935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022611148, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022608141, "dur":3099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022611295, "dur":54998, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022611245, "dur":55050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022666306, "dur":752, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022667064, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022668668, "dur":1295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022668597, "dur":1368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022669972, "dur":91, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702264022670066, "dur":5485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022675602, "dur":70066, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022675556, "dur":70114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022745691, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022746973, "dur":114162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022746933, "dur":114203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022861172, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702264022862316, "dur":20220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702264022074274, "dur":3132, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702264022077409, "dur":783, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702264022078192, "dur":527, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702264022078719, "dur":895, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702264022079615, "dur":8427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702264022088130, "dur":856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1702264022089048, "dur":7649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702264022096751, "dur":857, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022096702, "dur":907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022098845, "dur":2085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022100975, "dur":87376, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022100932, "dur":87421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022188380, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022191083, "dur":27393, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022191042, "dur":27436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022218507, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022219729, "dur":34075, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022219641, "dur":34166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022253836, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022255318, "dur":93305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022255269, "dur":93356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022348652, "dur":5206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022353907, "dur":198094, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022353863, "dur":198140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022552012, "dur":116, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702264022552132, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022553477, "dur":292030, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022553441, "dur":292068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022845522, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702264022846955, "dur":35607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022074310, "dur":3106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022077419, "dur":680, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022078099, "dur":593, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022078692, "dur":532, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022079225, "dur":8821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022088049, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1702264022088119, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022088424, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022088513, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022088703, "dur":7932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022096695, "dur":69090, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022096635, "dur":69152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022165815, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022168160, "dur":42264, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022168120, "dur":42307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022210453, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022211619, "dur":19418, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022211584, "dur":19455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022231067, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022232245, "dur":70230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022232210, "dur":70268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022302505, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022303834, "dur":292226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022303796, "dur":292267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022596089, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022598439, "dur":45313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022598373, "dur":45381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022643772, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022644793, "dur":35628, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022644757, "dur":35667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022680434, "dur":126, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022680564, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022682185, "dur":18407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022682152, "dur":18443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022700625, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022702645, "dur":26192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022702614, "dur":26225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022728848, "dur":176, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702264022729028, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022730094, "dur":66724, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022730059, "dur":66761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022796844, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022798207, "dur":55375, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022798172, "dur":55412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022853599, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702264022854491, "dur":28048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022074338, "dur":3085, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022077426, "dur":746, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022078173, "dur":474, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022078648, "dur":556, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022079205, "dur":730, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022079935, "dur":8119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022088055, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1702264022088118, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022088237, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1702264022088298, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022088410, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War.exe" }}
+,{ "pid":12345, "tid":5, "ts":1702264022088464, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022088564, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022088769, "dur":7887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022096710, "dur":911, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022096660, "dur":962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022111472, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022112724, "dur":34794, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022112676, "dur":34844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022147540, "dur":4218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022151854, "dur":80583, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022151760, "dur":80679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022232457, "dur":3638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022236133, "dur":50288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022236098, "dur":50325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022286451, "dur":5580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022292075, "dur":52333, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022292035, "dur":52376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022344440, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022345722, "dur":154213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022345687, "dur":154250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022499965, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022501438, "dur":56872, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022501374, "dur":56939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022558339, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022559976, "dur":58624, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022559930, "dur":58673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022618653, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022620254, "dur":22945, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022620160, "dur":23042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022643242, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022644590, "dur":2668, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022644549, "dur":2711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022647284, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022649495, "dur":29814, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022649458, "dur":29853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022679321, "dur":166, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022681493, "dur":94, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702264022679493, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022681756, "dur":43609, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022681703, "dur":43664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022725422, "dur":3096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022728565, "dur":92013, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022728527, "dur":92054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022820606, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022821844, "dur":46260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022821805, "dur":46300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022868125, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702264022869155, "dur":13375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022074372, "dur":3069, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022077446, "dur":548, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022077995, "dur":595, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022078591, "dur":493, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022079085, "dur":660, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022079745, "dur":8305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022088051, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1702264022088103, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022088240, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022088327, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022088381, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022088534, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022088776, "dur":7871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702264022096696, "dur":39472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022096652, "dur":39518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022136198, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022137492, "dur":139560, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022137455, "dur":139599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022277084, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022278436, "dur":40205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022278402, "dur":40241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022318669, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022319948, "dur":107886, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022319913, "dur":107924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022427936, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022429118, "dur":21729, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022429081, "dur":21768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022450877, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022452273, "dur":42222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022452143, "dur":42354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022494518, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022495797, "dur":78918, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022495762, "dur":78956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022574752, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022576109, "dur":26850, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022576070, "dur":26892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022602994, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022604226, "dur":32566, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022604191, "dur":32602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022636812, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022638077, "dur":19500, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022638039, "dur":19540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022657607, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022658804, "dur":27894, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022658767, "dur":27933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022686727, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022688230, "dur":72306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022688192, "dur":72347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022760569, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022762251, "dur":36510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022762213, "dur":36553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022798786, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022800982, "dur":866, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022800947, "dur":903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022801870, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022803254, "dur":49173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022803219, "dur":49209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022852445, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702264022853599, "dur":28948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022074412, "dur":3038, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022077453, "dur":844, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022078298, "dur":767, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022079066, "dur":758, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022079825, "dur":8238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022088064, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1702264022088129, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022088289, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022088423, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022088504, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022088589, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022088740, "dur":7888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702264022096696, "dur":27091, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022096634, "dur":27155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022123816, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022125867, "dur":107911, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022125815, "dur":107964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022233823, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022234917, "dur":672, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022234881, "dur":709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022235609, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022236639, "dur":25136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022236605, "dur":25173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022261819, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022263402, "dur":228581, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022263368, "dur":228617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022492008, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022494257, "dur":246223, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022494220, "dur":246262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022740514, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022742960, "dur":51069, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022742919, "dur":51112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022794052, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022795388, "dur":19618, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022795349, "dur":19658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022815021, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022817206, "dur":21571, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022817162, "dur":21618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022838809, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702264022839902, "dur":42626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022074437, "dur":3028, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022077469, "dur":649, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022078118, "dur":521, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022078640, "dur":538, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022079178, "dur":606, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022079785, "dur":8274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022088109, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022088242, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1702264022088296, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022088438, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022088537, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022088753, "dur":7877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022096692, "dur":28142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022096632, "dur":28204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022128142, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022124888, "dur":3371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022128354, "dur":21128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022128263, "dur":21221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022149533, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022150687, "dur":24529, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022150644, "dur":24574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022175240, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022176432, "dur":181971, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022176338, "dur":182067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022358415, "dur":216, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022358636, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022361245, "dur":116277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022361163, "dur":116362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022477534, "dur":231, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022478943, "dur":118, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022477769, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022479171, "dur":68086, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022479086, "dur":68173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022547287, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022550700, "dur":55634, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022550660, "dur":55676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022606346, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022606408, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022607626, "dur":28902, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022607563, "dur":28968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022636538, "dur":124, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022646600, "dur":126, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022636665, "dur":10101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022646837, "dur":53773, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022646770, "dur":53842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022700812, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022702590, "dur":58240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022702512, "dur":58319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022762398, "dur":227, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022760851, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022762736, "dur":81187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022762646, "dur":81280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022843936, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702264022844009, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702264022845444, "dur":37088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022074471, "dur":2999, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022077474, "dur":701, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022078176, "dur":500, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022078677, "dur":528, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022079206, "dur":362, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022079569, "dur":8487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022088057, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1702264022088112, "dur":370, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022088489, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022088602, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022088786, "dur":7852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022096715, "dur":71960, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022096642, "dur":72035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022168685, "dur":112, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022169841, "dur":196, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022168800, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022170194, "dur":225909, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022170064, "dur":226041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022396115, "dur":68, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022398127, "dur":129, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022396187, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022398368, "dur":264099, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022398296, "dur":264173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022662489, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022663784, "dur":37477, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022663731, "dur":37532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022701269, "dur":316, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702264022701588, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022703044, "dur":41554, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022702999, "dur":41601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022744629, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022746108, "dur":55148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022746017, "dur":55241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022801280, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022802974, "dur":48471, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022802903, "dur":48544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022851476, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702264022852731, "dur":29828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022074518, "dur":2965, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022077487, "dur":1134, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022078622, "dur":569, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022079191, "dur":559, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022079750, "dur":8311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022088062, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1702264022088117, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022088276, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1702264022088333, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022088619, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022088728, "dur":7955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022096765, "dur":50336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022096689, "dur":50414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022147132, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022148492, "dur":164263, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022148458, "dur":164299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022312784, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022314586, "dur":54956, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022314542, "dur":55002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022369554, "dur":72, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022369630, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022370868, "dur":92219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022370832, "dur":92257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022463117, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022464285, "dur":49516, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022464242, "dur":49561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022513831, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022514989, "dur":113505, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022514929, "dur":113567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022628507, "dur":181, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702264022628693, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022629925, "dur":31559, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022629885, "dur":31602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022661514, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022662763, "dur":50283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022662726, "dur":50322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022713077, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022714438, "dur":36806, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022714406, "dur":36840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022751276, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022755405, "dur":91094, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022755371, "dur":91130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022846517, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702264022847683, "dur":34872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022074548, "dur":2951, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022077504, "dur":899, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022078403, "dur":526, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022078929, "dur":685, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022079615, "dur":8443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022088061, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1702264022088124, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022088262, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022088377, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022088507, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022088596, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022088680, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022088765, "dur":7902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702264022096721, "dur":828, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022096673, "dur":878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022098486, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022100973, "dur":29228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022100930, "dur":29273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022130233, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022131456, "dur":40898, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022131418, "dur":40939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022172386, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022173580, "dur":67036, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022173544, "dur":67074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022240639, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022241733, "dur":163589, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022241696, "dur":163628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022405343, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022406607, "dur":408293, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022406573, "dur":408328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022814932, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022817935, "dur":27233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022817897, "dur":27272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022845191, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702264022846481, "dur":36045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022074579, "dur":2932, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022077512, "dur":644, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022078157, "dur":495, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022078652, "dur":686, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022079338, "dur":8714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022088053, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1702264022088145, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1702264022088204, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022088301, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022088354, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022088465, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022088566, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022088707, "dur":8033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022096782, "dur":34245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022096741, "dur":34287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022131048, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022132508, "dur":56484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022132468, "dur":56526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022189013, "dur":3253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022192308, "dur":7629, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022192268, "dur":7671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022199968, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022201173, "dur":35147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022201128, "dur":35193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022236341, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022237432, "dur":24344, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022237393, "dur":24385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022261805, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022263787, "dur":140237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022263755, "dur":140271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022404056, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022406751, "dur":58316, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022406713, "dur":58356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022465090, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022468088, "dur":19629, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022468054, "dur":19665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022487746, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022488997, "dur":87313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022488962, "dur":87349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022576330, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022577297, "dur":89040, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022577262, "dur":89078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022666348, "dur":720, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702264022667072, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022668634, "dur":748, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022668599, "dur":785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022669403, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022670418, "dur":52375, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022670384, "dur":52411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022722824, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022724057, "dur":44186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022724022, "dur":44224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022768280, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022769662, "dur":22870, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022769618, "dur":22917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022792561, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022793816, "dur":31905, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022793779, "dur":31945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022825755, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022827886, "dur":24126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022827852, "dur":24161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build/Merlin's Demon War_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022852030, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Merlin's Demon War_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702264022853275, "dur":29277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702264022886996, "dur":1405, "ph":"X", "name": "ProfilerWriteOutput" }
+,
